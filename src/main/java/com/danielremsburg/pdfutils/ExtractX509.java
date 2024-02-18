@@ -33,7 +33,8 @@ public class ExtractX509 {
 
         SignatureUtil signatureUtil = new SignatureUtil(pdfDocument);
         List<String> mysignames = signatureUtil.getSignatureNames();
-        mysignames.stream().forEach((str) -> {
+        mysignames.stream().forEach((str) -> 
+        {
 
 
             System.out.println("sig: " + str);
