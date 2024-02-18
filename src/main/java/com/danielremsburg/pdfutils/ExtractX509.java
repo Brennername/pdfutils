@@ -15,7 +15,7 @@ import java.util.List;
 public class ExtractX509 {
     public static void main(String[] args) {
         if (args.length < 1) {
-            System.out.println("Usage: extract_509_cert_from_pdf <file.pdf>");
+            System.out.println("Usage: ExtractX509 <file.pdf>");
             System.exit(0);
         }
         String input = args[0];
